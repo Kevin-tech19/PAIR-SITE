@@ -1,6 +1,6 @@
 {
   "name": "web-pair",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "type": "commonjs",
   "description": "A multi-functional WhatsApp bot Pairing Web and QR Scanner.",
   "main": "index.js",
@@ -8,9 +8,9 @@
         "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name davidx",
-    "stop": "pm2 stop davidx",
-    "restart": "pm2 restart davidx",
+    "start": "pm2 start index.js --deep-monitoring --attach --name xjanu",
+    "stop": "pm2 stop xjanu",
+    "restart": "pm2 restart xjanu",
     "dev": "nodemon index.js"
   },
   "keywords": [
