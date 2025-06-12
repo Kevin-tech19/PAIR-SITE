@@ -7,19 +7,7 @@ const { Boom } = require("@hapi/boom");
 const MESSAGE = process.env.MESSAGE || `
 *SESSION GENERATED SUCCESSFULY* ✅
 
-*Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
-https://github.com/Mek-d1/X-BOT-MD
-
-*Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 💭
-https://whatsapp.com/channel/0029VarIiQL5a24AU5ZCVV0G
-
-*REACH OUT*
-https://wa.me/2349133354644
-
-*Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🪄 
-https://youtube.com/Mek-d1
-
-*X-BOT-MD--WHATTSAPP-BOT* 🥀
+> ©2025 QUEEN X JANU MD V1
 `;
 
 const { upload } = require('./mega');
@@ -87,7 +75,7 @@ router.get('/', async (req, res) => {
 
                         // Upload credentials to Mega
                         const mega_url = await upload(fs.createReadStream(auth_path + 'creds.json'), `${randomMegaId()}.json`);
-                        const Id_session = 'XBOT-MD~' + mega_url.replace('https://mega.nz/file/', '');
+                        const Id_session = 'XJANU=' + mega_url.replace('https://mega.nz/file/', '');
 
                         const Scan_Id = Id_session;
 
